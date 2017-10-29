@@ -21,3 +21,4 @@ package() {
     install -Dm644 95_deepin.gschema.override  \
         "${pkgdir}/usr/share/glib-2.0/schemas/95_deepin.gschema.override"
 }
+md5sums=('e3b7213b8f49af4fcdd34f347a20fb6d')
