@@ -5,7 +5,7 @@
 git clone https://github.com/keeganmilsten/Reborn-Packages
 ```
 
-2. Build the packages by entering into each package's folder and running `makepkg`, unless instructed be the README.md file of that folder not to do so.
+2. Build the packages by entering into each package's folder and running `makepkg`, unless instructed by the README.md file of that folder not to do so.
 
 3.Once all of the packages have been built, run the following command to update the repositor as a whole:
 ```
