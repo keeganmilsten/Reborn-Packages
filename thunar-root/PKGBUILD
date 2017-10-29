@@ -1,0 +1,19 @@
+# Maintainer: Keegan Milsten <willnhalt@gmail.com>
+
+pkgname="thunar-root"
+_pkgname="Thunar-Root"
+pkgver=1.1
+pkgrel=1.1
+pkgdesc='Thunar opened with root privileges'
+url='https://github.com/keeganmilsten/thunar-root'
+arch=('any')
+license=('GPL3')
+depends=('thunar')
+source=("${pkgname}-${pkgver}.tar.gz::https://github.com/keeganmilsten/${_pkgname}/archive/v${pkgver}.tar.gz")
+
+package() {
+    cd "${srcdir}/${_pkgname}-${pkgver}"
+
+    install -D -m 755 thunar-root.desktop \
+    	 "${pkgdir}/usr/share/applications/thunar.desktop"
+}
