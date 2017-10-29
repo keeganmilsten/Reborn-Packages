@@ -8,7 +8,7 @@ pkgdesc='Nautilus opened with root privileges'
 url='https://github.com/keeganmilsten/nautilus-root'
 arch=('any')
 license=('GPL3')
-depends=('nautilus')
+depends=('nautilus' 'gksu')
 source=("${pkgname}-${pkgver}.tar.gz::https://codeload.github.com/keeganmilsten/${_pkgname}/tar.gz/${pkgver}")
 
 package() {
