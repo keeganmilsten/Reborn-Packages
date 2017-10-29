@@ -1,0 +1,16 @@
+
+[org.gnome.shell.extensions.dash-to-dock]
+background-opacity '0.90'
+isolate-workspaces=true
+opaque-background=true
+show-show-apps-button=false
+
+[org.gnome.mutter]
+center-new-windows=true
+dynamic-workspaces=true
+
+[org.gnome.desktop.background]
+show-desktop-icons=true
+
+[org.gnome.shell.extensions.activities-config]
+activities-config-button-no-text=true
