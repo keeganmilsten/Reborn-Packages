@@ -13,7 +13,7 @@ sudo repo-add /home/$USER/Dropbox/Linux/RebornOS-Repo/Reborn-OS.db.tar.xz /home/
 ```
 4. Done!
 
-### If you do not have the repo in  pacman.conf or just want to add it to your distribution, please follow these steps
+### If you do not have the repo in  pacman.conf or just want to add it to your system, please follow these steps
 
 1. Enter pacman.conf
 ```
