@@ -1,7 +1,7 @@
 # Maintainer: Keegan Milsten <willnhalt@gmail.com>
 
 pkgname="deepin-file-manager-root"
-_pkgname="Deepin-File-Manager-Root"
+_pkgname="deepin-file-manager-root"
 pkgver=1.1
 pkgrel=1.1
 pkgdesc='Deepin file manager opened with root privileges'
