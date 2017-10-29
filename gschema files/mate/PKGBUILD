@@ -15,6 +15,6 @@ install=schema.install
 package() {
     cd "${srcdir}/${_pkgname}-${pkgver}"
     install -d "${pkgdir}/usr/share/glib-2.0/schemas"
-    install -Dm644  /mate/95_mate.gschema.override  \
+    install -Dm644 95_mate.gschema.override  \
         "${pkgdir}/usr/share/glib-2.0
 }
