@@ -1,17 +1,17 @@
 # Maintainer: Keegan Milsten <willnhalt@gmail.com>
 
-pkgname=reborn-schemas
-_pkgname=reborn-schemas
+pkgname=reborn-deepin-schemas
+_pkgname=reborn-deepin-schemas
 pkgver=1.1
 pkgrel=1.1
-pkgdesc="Setup configuration for Gnome Reborn"
+pkgdesc="Setup configuration for Deepin Reborn"
 url="https://github.com/keeganmilsten/reborn-schemas/tree/master/deepin"
 arch=('any')
 license=('GPL2')
 depends=('deepin-desktop-base' 'gsettings-desktop-schemas' 'dconf')
 #replaces=('antergos-desktop' 'antergos-gsettings')
-source=("${pkgname}-${pkgver}.tar.gz::https://codeload.github.com/keeganmilsten/${_pkgname}/tar.gz/${pkgver}")
-install=${pkgname}/deepin/schema.install
+source=("reborn-schemas-${pkgver}.tar.gz::https://codeload.github.com/keeganmilsten/reborn-schemas/tar.gz/${pkgver}")
+install=reborn-schemas/cinnamon/schema.install
 
 package() {
     cd "${srcdir}/${_pkgname}-${pkgver}"
