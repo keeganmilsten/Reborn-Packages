@@ -17,3 +17,4 @@ package() {
     install -D -m 755 deepin-file-manager-root.desktop \
     	 "${pkgdir}/usr/share/applications/deepin-file-manager-root.desktop"
 }
+md5sums=('8a4b1e93e620dfadf55a3e0b935a988b')
