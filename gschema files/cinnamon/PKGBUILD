@@ -15,6 +15,6 @@ install=schema.install
 package() {
     cd "${srcdir}/${_pkgname}-${pkgver}"
     install -d "${pkgdir}/usr/share/glib-2.0/schemas"
-    install -Dm644  /cinnamon/95_cinnamon.gschema.override  \
+    install -Dm644 95_cinnamon.gschema.override  \
         "${pkgdir}/usr/share/glib-2.0/schemas/95_cinnamon.gschema.override"
 }
