@@ -17,4 +17,4 @@ package() {
     install -d "${pkgdir}/usr/share/glib-2.0/schemas"
     install -Dm644  /mate/95_mate.gschema.override  \
         "${pkgdir}/usr/share/glib-2.0
-        }
+}
