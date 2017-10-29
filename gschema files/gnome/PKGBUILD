@@ -1,6 +1,6 @@
 # Maintainer: Antergos Devs <devs@antergos.com>
 
-pkgname=reborn-deepin-setup
+pkgname=reborn-gnome-setup
 _pkgname=reborn-desktop-settings
 pkgver=1.1
 pkgrel=1.1
