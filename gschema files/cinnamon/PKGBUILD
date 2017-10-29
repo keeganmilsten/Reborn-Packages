@@ -1,7 +1,7 @@
 # Maintainer: Keegan Milsten <willnhalt@gmail.com>
 
-pkgname=reborn-schemas
-_pkgname=reborn-schemas
+pkgname=reborn-schemas-gnome
+_pkgname=reborn-schemas-gnome
 pkgver=1.1
 pkgrel=1.1
 pkgdesc="Setup configuration for Gnome Reborn"
@@ -10,8 +10,8 @@ arch=('any')
 license=('GPL2')
 depends=('gsettings-desktop-schemas' 'dconf')
 #replaces=('antergos-desktop' 'antergos-gsettings')
-source=("${pkgname}-${pkgver}.tar.gz::https://codeload.github.com/keeganmilsten/${_pkgname}/tar.gz/${pkgver}")
-install=${pkgname}/cinnamon/schema.install
+source=("reborn-schemas-${pkgver}.tar.gz::https://codeload.github.com/keeganmilsten/reborn-schemas/tar.gz/${pkgver}")
+install=reborn-schemas/cinnamon/schema.install
 package() {
     cd "${srcdir}/${_pkgname}-${pkgver}"
     install -d "${pkgdir}/usr/share/glib-2.0/schemas"
