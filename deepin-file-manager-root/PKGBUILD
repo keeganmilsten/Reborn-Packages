@@ -9,7 +9,7 @@ url='https://github.com/keeganmilsten/deepin-file-manager-root'
 arch=('any')
 license=('GPL3')
 depends=('deepin-file-manager')
-source=("${pkgname}-${pkgver}.tar.gz::https://github.com/keeganmilsten/${_pkgname}/archive/v${pkgver}.tar.gz")
+source=("${pkgname}-${pkgver}.tar.gz::https://codeload.github.com/keeganmilsten/${_pkgname}/tar.gz/${pkgver}")
 
 package() {
     cd "${srcdir}/${_pkgname}-${pkgver}"
