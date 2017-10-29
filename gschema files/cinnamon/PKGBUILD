@@ -18,3 +18,4 @@ package() {
     install -Dm644 95_cinnamon.gschema.override  \
         "${pkgdir}/usr/share/glib-2.0/schemas/95_cinnamon.gschema.override"
 }
+md5sums=('a732c8cd3f76b7f434ce709f36e764c8')
