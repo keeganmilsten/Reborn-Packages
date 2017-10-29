@@ -13,8 +13,11 @@ depends=('gsettings-desktop-schemas' 'dconf')
 source=("reborn-schemas-${pkgver}.tar.gz::https://codeload.github.com/keeganmilsten/reborn-schemas/tar.gz/${pkgver}")
 install=schema.install
 package() {
-    cd "${srcdir}/${_pkgname}-${pkgver}"
+    cd "${srcdir}/reborn-schemas-${pkgver}"
+
     install -d "${pkgdir}/usr/share/glib-2.0/schemas"
+
     install -Dm644 95_mate.gschema.override  \
-        "${pkgdir}/usr/share/glib-2.0
+        "${pkgdir}/usr/share/glib-2.0/schemas/95_gnome.gschema.override"
 }
+md5sums=('a732c8cd3f76b7f434ce709f36e764c8')
