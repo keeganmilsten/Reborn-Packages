@@ -18,6 +18,6 @@ package() {
 
     install -d "${pkgdir}/usr/share/glib-2.0/schemas"
 
-    install -Dm644  /deepin/95_deepin.gschema.override  \
+    install -Dm644 95_deepin.gschema.override  \
         "${pkgdir}/usr/share/glib-2.0/schemas/95_deepin.gschema.override"
 }
