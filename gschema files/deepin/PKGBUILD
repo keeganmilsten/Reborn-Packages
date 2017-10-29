@@ -1,7 +1,7 @@
 # Maintainer: Keegan Milsten <willnhalt@gmail.com>
 
 pkgname=reborn-schemas
-_pkgname=reborn-desktop-settings
+_pkgname=reborn-schemas
 pkgver=1.1
 pkgrel=1.1
 pkgdesc="Setup configuration for Gnome Reborn"
