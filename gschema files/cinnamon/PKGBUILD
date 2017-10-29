@@ -1,10 +1,10 @@
 # Maintainer: Keegan Milsten <willnhalt@gmail.com>
 
-pkgname=reborn-schemas-gnome
-_pkgname=reborn-schemas-gnome
+pkgname=reborn-cinnamon-schemas
+_pkgname=reborn-cinnamon-schemas
 pkgver=1.1
 pkgrel=1.1
-pkgdesc="Setup configuration for Gnome Reborn"
+pkgdesc="Setup configuration for Cinnamon Reborn"
 url="https://github.com/keeganmilsten/reborn-schemas/tree/master/cinnamon"
 arch=('any')
 license=('GPL2')
