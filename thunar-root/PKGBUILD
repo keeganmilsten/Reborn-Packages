@@ -17,3 +17,4 @@ package() {
     install -D -m 755 thunar-root.desktop \
     	 "${pkgdir}/usr/share/applications/thunar.desktop"
 }
+md5sums=('db1df6300f084c80d7be7c3380bed275')
