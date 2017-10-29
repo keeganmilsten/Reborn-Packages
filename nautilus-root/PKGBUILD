@@ -17,3 +17,4 @@ package() {
     install -D -m 755 nautilus-root.desktop \
     	 "${pkgdir}/usr/share/applications/nautilus-root.desktop"
 }
+md5sums=('e1d99dfa016744cc078944d8467fd528')
