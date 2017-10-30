@@ -1,6 +1,6 @@
 # Reborn Repository Packages
 ![Reborn_Repository](/reborn-repo.png)
-# Manually Build Reborn-Packages
+# Manually Build Reborn-Packages (for Reborn OS Team) 
 
 1. git clone the repository.
 ```
@@ -15,8 +15,7 @@ sudo repo-add /home/$USER/Dropbox/Linux/RebornOS-Repo/Reborn-OS.db.tar.xz /home/
 ```
 4. Done!
 
-### If you do not have the repo in  pacman.conf or just want to add it to your system, please follow these steps
-
+# Add The Repository to Your System (for users)
 1. Enter pacman.conf
 ```
 sudo nano /etc/pacman.conf
