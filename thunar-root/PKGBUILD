@@ -9,7 +9,7 @@ url="https://github.com/keeganmilsten/Reborn-Packages/tree/master/thunar-root"
 arch=('any')
 license=('GPL3')
 depends=('thunar')
-source=("source=("${pkgname}-${pkgver}.tar.gz::https://codeload.github.com/keeganmilsten/${_pkgname}/tar.gz/${pkgver}")
+source=("${pkgname}-${pkgver}.tar.gz::https://codeload.github.com/keeganmilsten/${_pkgname}/tar.gz/${pkgver}")
 
 package() {
     cd "${srcdir}/${_pkgname}-${pkgver}"
