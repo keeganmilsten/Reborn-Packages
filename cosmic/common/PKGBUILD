@@ -1,0 +1,9 @@
+pkgname=common-cosmic-reborn
+pkgver=1.1
+pkgrel=1.1
+pkgdesc='Cosmic package for base packages in Reborn OS'
+url='https://github.com/keeganmilsten/Reborn-Packages/tree/master/cosmic/common/'
+arch=('any')
+license=('GPL3')
+depends=('acpid' 'alsa-utils' 'antergos-keyring' 'antergos-mirrorlist' 'b43-fwcutter' 'bash-completion' 'crda' 'bind-tools' 'dosfstools' 'haveged' 'gzip' 'intel-ucode' 'ipw2100-fw' 'ipw2200-fw' 'mlocate' 'modemmanager' 'net-tools' 'networkmanager' 'ntfs-3g' 'openssh' 'pkgfile' 'reflector' 'sudo' 'terminus-font' 'tlp' 'tar' 'unzip' 'unrar' 'usb_modeswitch'	'wget' 'whois' 'wireless_tools' 'wpa_actiond' 'zd1211-firmware')
+groups=('base' 'base-devel')
