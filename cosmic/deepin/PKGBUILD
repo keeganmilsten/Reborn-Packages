@@ -6,3 +6,4 @@ url='https://github.com/keeganmilsten/Reborn-Packages/tree/master/cosmic/deepin'
 arch=('any')
 license=('GPL3')
 depends=('adwaita-icon-theme' 'brasero' 'deepin-cogl' 'deepin-mutter' 'deepin-polkit-agent' 'dtkwm' 'gedit' 'gnome-calculator' 'gnome-disk-utility' 'gnome-font-viewer' 'gnome-software' 'gtk-theme-paper' 'gtk-theme-adapta' 'networkmanager-openvpn' 'noto-fonts' 'noto-fonts-cjk' 'noto-fonts-emoji' 'pamac' 'unicode-character-database' 'gtk3-print-backends')
+groups=('deepin' 'deepin-extra')
