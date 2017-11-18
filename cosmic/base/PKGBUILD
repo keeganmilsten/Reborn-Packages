@@ -1,0 +1,8 @@
+pkgname=base-cosmic-reborn
+pkgver=1.1
+pkgrel=1.1
+pkgdesc='Cosmic package for installation without a DE in Reborn OS'
+url='https://github.com/keeganmilsten/Reborn-Packages/tree/master/cosmic/base/'
+arch=('any')
+license=('GPL3')
+depends=('cabextract' 'bzip2' 'dialog' 'rsync' 'sharutils' 'uudeview' 'xz' 'zip')
