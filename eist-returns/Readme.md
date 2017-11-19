@@ -1,0 +1,1 @@
+DeepinScreenshot_select-area_20171119100043.png
