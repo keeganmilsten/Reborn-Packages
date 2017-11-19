@@ -20,3 +20,4 @@ depends=('antergos-gnome-defaults-list' 'baobab' 'brasero' 'evince' 'eog'
     'networkmanager-openvpn' 'networkmanager-pptp' 'pamac' 'polari'
     'python-pysmbc' 'qt5ct' 'seahorse' 'totem' 'transmission-gtk'
     'xdg-user-dirs-gtk' 'xscreensaver')
+groups=('gnome')
