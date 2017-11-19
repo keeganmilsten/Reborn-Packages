@@ -7,5 +7,5 @@ pkgdesc='Cosmic pacakge for Gnome packages on Reborn OS'
 url='FIX THIS'
 arch=('any')
 license=('GPL3')
-depends=('antergos-gnome-defaults-list' 'gedit' 'hicolor-icon-theme' 'libgnome-keyring' 'networkmanager-openvpn' 'networkmanager-pptp' 'pamac' 'polari' 'python-pysmbc' 'qt5ct' 'seahorse' 'totem' 'transmission-gtk' 'xdg-user-dirs-gtk' 'xscreensaver' 'gnome-software' 'flatplat-blue-theme' 'nautilus-root' 'gdm')
+depends=('antergos-gnome-defaults-list' 'gedit' 'hicolor-icon-theme' 'brasero' 'libgnome-keyring' 'networkmanager-openvpn' 'networkmanager-pptp' 'pamac' 'polari' 'python-pysmbc' 'qt5ct' 'seahorse' 'totem' 'transmission-gtk' 'xdg-user-dirs-gtk' 'xscreensaver' 'gnome-software' 'flatplat-blue-theme' 'nautilus-root')
 groups=('gnome' 'gnome-shell-extensions')
