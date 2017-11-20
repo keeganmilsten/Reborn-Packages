@@ -2,19 +2,21 @@
 
 pkgname="deepin-file-manager-root"
 _pkgname="deepin-file-manager-root"
-pkgver=1.1
+pkgver=1.2
 pkgrel=1.1
 pkgdesc='Deepin file manager opened with root privileges'
-url="https://github.com/keeganmilsten/Reborn-Packages/tree/master/deepin-file-manager-root"
+url='https://github.com/keeganmilsten/Reborn-Packages/tree/master/deepin-file-manager-root'
 arch=('any')
 license=('GPL3')
 depends=('deepin-file-manager')
-source=("${pkgname}-${pkgver}.tar.gz::https://codeload.github.com/keeganmilsten/${_pkgname}/tar.gz/${pkgver}")
+source=("${pkgname}-${pkgver}.tar.gz::https://codeload.github.com/keeganmilsten/${_pkgname}/tar.gz/1.1")
 
 package() {
-    cd "${srcdir}/${_pkgname}-${pkgver}"
+    cd "${srcdir}/${_pkgname}-1.1"
 
     install -D -m 755 deepin-file-manager-root.desktop \
     	 "${pkgdir}/usr/share/applications/deepin-file-manager-root.desktop"
 }
+md5sums=('8a4b1e93e620dfadf55a3e0b935a988b')
+md5sums=('8a4b1e93e620dfadf55a3e0b935a988b')
 md5sums=('8a4b1e93e620dfadf55a3e0b935a988b')
