@@ -5,16 +5,18 @@ _pkgname="nautilus-root"
 pkgver=1.1
 pkgrel=1.1
 pkgdesc='Nautilus opened with root privileges'
-url="https://github.com/keeganmilsten/Reborn-Packages/tree/master/nautilus-root"
+url='https://github.com/keeganmilsten/Reborn-Packages/tree/master/nautilus-root'
 arch=('any')
 license=('GPL3')
 depends=('nautilus' 'gksu')
-source=("${pkgname}-${pkgver}.tar.gz::https://codeload.github.com/keeganmilsten/${_pkgname}/tar.gz/${pkgver}")
+source=("${pkgname}-${pkgver}.tar.gz::https://codeload.github.com/keeganmilsten/${_pkgname}/tar.gz/1.1")
 
 package() {
-    cd "${srcdir}/${_pkgname}-${pkgver}"
+    cd "${srcdir}/${_pkgname}-1.1"
 
     install -D -m 755 nautilus-root.desktop \
     	 "${pkgdir}/usr/share/applications/nautilus-root.desktop"
 }
+md5sums=('e1d99dfa016744cc078944d8467fd528')
+md5sums=('e1d99dfa016744cc078944d8467fd528')
 md5sums=('e1d99dfa016744cc078944d8467fd528')
