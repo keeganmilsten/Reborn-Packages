@@ -1,7 +1,7 @@
 pkgbase = pyakm
 	pkgdesc = Simple GUI to manage arch linux kernels
-	pkgver = 0.0.2
-	pkgrel = 2
+	pkgver = 0.0.3
+	pkgrel = 3
 	url = https://github.com/pssncp142/pyakm
 	arch = x86_64
 	license = GPL3
