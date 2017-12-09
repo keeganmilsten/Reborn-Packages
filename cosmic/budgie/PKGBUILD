@@ -1,8 +1,6 @@
-# Maintainer: Antergos Devs <devs@antergos.com>
-
 pkgname=budgie-cosmic-reborn
-pkgver=1.0
-pkgrel=1
+pkgver=1.1
+pkgrel=1.1
 pkgdesc='Cosmic package for Budgie Reborn'
 url='https://github.com/keeganmilsten/Reborn-Packages/tree/master/cosmic/budgie'
 arch=('any')
