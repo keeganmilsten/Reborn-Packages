@@ -9,7 +9,7 @@ url='https://github.com/keeganmilsten/Reborn-Packages/reborn-updates'
 arch=('any')
 license=('GPL3')
 depends=('yad' 'xterm' 'sudo')
-source=("${pkgname}-${pkgver}.tar.gz::https://github.com/keeganmilsten/${_pkgname}/archive/v${pkgver}.tar.gz")
+source=("${pkgname}-${pkgver}.tar.gz::https://codeload.github.com/keeganmilsten/${_pkgname}/tar.gz/1.0")
 
 package() {
     cd "${srcdir}/${_pkgname}-${pkgver}"
