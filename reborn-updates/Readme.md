@@ -1,0 +1,3 @@
+```
+makepkg -g >> PKGBUILD && makepkg
+```
