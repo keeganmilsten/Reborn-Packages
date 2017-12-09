@@ -20,7 +20,7 @@ package() {
     install -D -m 755 reborn-updates.desktop \
     	 "${pkgdir}/usr/share/applications/reborn-updates.desktop"
 
-    install -D -m 644 .svg \
+    install -D -m 644 reborn-updates.svg \
     	 "${pkgdir}/usr/share/icons/default/reborn-updates.svg"
     install -D -m 644 pacman.conf \
        "${pkgdir}/usr/share/pacman.conf
