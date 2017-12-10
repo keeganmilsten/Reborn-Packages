@@ -1,0 +1,23 @@
+# Maintainer: Keegan Milsten <keeganmilsten@gmail.com>
+
+pkgname=reborn-budgie-schemas
+_pkgname=reborn-budgie-schemas
+pkgver=1.1
+pkgrel=1.0
+pkgdesc="Setup configuration for Budgie Reborn"
+url="https://github.com/keeganmilsten/reborn-schemas/"
+arch=('any')
+license=('GPL2')
+depends=('gsettings-desktop-schemas' 'dconf')
+#replaces=('antergos-desktop' 'antergos-gsettings')
+source=("reborn-schemas-${pkgver}.tar.gz::https://codeload.github.com/keeganmilsten/reborn-schemas/tar.gz/${pkgver}")
+install=schema.install
+
+package() {
+    cd "${srcdir}/${_pkgname}-${pkgver}"
+
+    install -d "${pkgdir}/usr/share/glib-2.0/schemas"
+
+    install -Dm644 95_budgie.gschema.override  \
+        "${pkgdir}/usr/share/glib-2.0/schemas/95_budgie.gschema.override"
+}
