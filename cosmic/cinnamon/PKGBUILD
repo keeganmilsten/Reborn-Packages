@@ -1,0 +1,9 @@
+pkgname=cinnamon-cosmic-reborn
+pkgver=1.1
+pkgrel=1.1
+pkgdesc='Cosmic package for Deepin Reborn'
+url='https://github.com/keeganmilsten/Reborn-Packages/tree/master/cosmic/cinnamon'
+arch=('any')
+license=('GPL3')
+depends=('dconf-editor' 'libdvdcss' 'lightdm' 'light-locker' 'light-locker-settings' 'numix-icon-theme-square' 'pavucontrol' 'pulseaudio' 'pulseaudio-bluetooth' 'qt5-styleplugins' 'xf86-input-libinput' 'xorg-server' 'cinnamon' 'brasero' 'baobab' 'antergos-gnome-defaults-list' 'eog' 'evince' 'file-roller' 'gedit' 'gnome-calculator' 'gnome-common' 'gnome-disk-utility' 'gnome-font-viewer' 'gnome-keyring' 'gnome-music' 'gnome-photos' 'gnome-screenshot' 'gnome-system-monitor' 'gnome-terminal' 'gnome-themes-standard' 'hicolor-icon-theme' 'libgnome-keyring' 'muffin' 'networkmanager-openvpn' 'networkmanager-pptp' 'pamac' 'python-pysmbc' 'qt5ct' 'totem' 'transmission-gtk' 'xdg-user-dirs-gtk' 'zuki-themes')
+groups=('cinnamon')
