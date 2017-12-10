@@ -1,7 +1,7 @@
 # Maintainer: Keegan Milsten <keeganmilsten@gmail.com>
 
 pkgname=reborn-budgie-schemas
-_pkgname=reborn-budgie-schemas
+_pkgname=reborn-schemas
 pkgver=1.1
 pkgrel=1.1
 pkgdesc="Setup configuration for Budgie Reborn"
@@ -15,9 +15,7 @@ install=schema.install
 
 package() {
     cd "${srcdir}/${_pkgname}-${pkgver}"
-
     install -d "${pkgdir}/usr/share/glib-2.0/schemas"
-
     install -Dm644 95_budgie.gschema.override  \
         "${pkgdir}/usr/share/glib-2.0/schemas/95_budgie.gschema.override"
 }
