@@ -1,0 +1,11 @@
+# Maintainer: Keegan Milsten <keeganmilsten@gmail.com>
+
+pkgname=xfce-cosmic-reborn
+pkgver=1.1
+pkgrel=1.1
+pkgdesc='Cosmic package for Xfce Reborn'
+url='https://github.com/keeganmilsten/Reborn-Packages/tree/master/cosmic/xfce'
+arch=('any')
+license=('GPL3')
+depends=('evince' 'file-roller' 'gamin' 'gnome-calculator' 'gnome-disk-utility' 'gnome-keyring' 'gtk-engine-murrine' 'network-manager-applet' 'networkmanager-openvpn' 'networkmanager-pptp' 'pamac' 'parole' 'python-pysmbc' 'polkit-gnome' 'pragha' 'qt5ct' 'transmission-gtk' 'xdg-user-dirs-gtk')
+groups=('xfce4' 'xfce4-goodies')
