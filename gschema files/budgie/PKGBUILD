@@ -3,7 +3,7 @@
 pkgname=reborn-budgie-schemas
 _pkgname=reborn-budgie-schemas
 pkgver=1.1
-pkgrel=1.0
+pkgrel=1.1
 pkgdesc="Setup configuration for Budgie Reborn"
 url="https://github.com/keeganmilsten/reborn-schemas/"
 arch=('any')
