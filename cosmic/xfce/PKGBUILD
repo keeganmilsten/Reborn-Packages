@@ -1,7 +1,7 @@
 # Maintainer: Keegan Milsten <keeganmilsten@gmail.com>
 
 pkgname=xfce-cosmic-reborn
-pkgver=1.1
+pkgver=1.2
 pkgrel=1.1
 pkgdesc='Cosmic package for Xfce Reborn'
 url='https://github.com/keeganmilsten/Reborn-Packages/tree/master/cosmic/xfce'
