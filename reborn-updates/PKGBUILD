@@ -2,14 +2,14 @@
 
 pkgname="reborn-updates"
 _pkgname="reborn-updates"
-pkgver=1.0
+pkgver=1.1
 pkgrel=1
 pkgdesc='Easily update Reborn OS to experience the improvements from more recent installs'
 url='https://github.com/keeganmilsten/Reborn-Packages/reborn-updates'
 arch=('any')
 license=('GPL3')
 depends=('yad' 'xterm' 'sudo')
-source=("${pkgname}-${pkgver}.tar.gz::https://codeload.github.com/keeganmilsten/${_pkgname}/tar.gz/1.0")
+source=("${pkgname}-${pkgver}.tar.gz::https://codeload.github.com/keeganmilsten/${_pkgname}/tar.gz/1.1")
 
 package() {
     cd "${srcdir}/${_pkgname}-${pkgver}"
@@ -23,5 +23,7 @@ package() {
     install -D -m 644 reborn-updates.svg \
     	 "${pkgdir}/usr/share/icons/default/reborn-updates.svg"
     install -D -m 644 pacman.conf \
-       "${pkgdir}/usr/share/pacman.conf
+       "${pkgdir}/usr/share/pacman.conf"
+    install -D -m 644 lightdm-webkit2-greeter.conf \
+       "${pkgdir}/usr/share/lightdm-webkit2-greeter.conf"
 }
