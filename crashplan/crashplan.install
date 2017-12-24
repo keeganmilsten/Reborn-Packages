@@ -1,0 +1,19 @@
+post_install () {
+	echo "INSTALLDATE=$(date +%Y%m%d)" >> "/opt/crashplan/install.vars"
+	post_upgrade
+}
+
+pre_upgrade () {
+	# Pacman doesn't retroactively change folder permissions, just warns about differences
+	pre_remove
+	chmod 755 /opt/crashplan/upgrade
+	rm -rf /opt/crashplan/upgrade/1435*
+}
+
+post_upgrade () {
+	chattr +i /opt/crashplan/upgrade
+}
+
+pre_remove () {
+	chattr -i /opt/crashplan/upgrade
+}
