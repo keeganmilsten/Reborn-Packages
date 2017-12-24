@@ -8,7 +8,7 @@ pkgdesc='Bleachbit opened with root privileges'
 url='https://github.com/keeganmilsten/Reborn-Packages/tree/master/bleachbit-root'
 arch=('any')
 license=('GPL3')
-depends=('bleachbit')
+depends=('bleachbit' 'gksu')
 source=("${pkgname}-${pkgver}.tar.gz::https://codeload.github.com/keeganmilsten/${_pkgname}/tar.gz/1.0")
 
 package() {
