@@ -12,7 +12,7 @@ depends=('bleachbit')
 source=("${pkgname}-${pkgver}.tar.gz::https://codeload.github.com/keeganmilsten/${_pkgname}/tar.gz/1.0")
 
 package() {
-    cd "${srcdir}/${_pkgname}-1.1"
+    cd "${srcdir}/${_pkgname}-1.0"
 
     install -D -m 755 bleachbit-root.desktop \
     	 "${pkgdir}/usr/share/applications/bleachbit.desktop"
