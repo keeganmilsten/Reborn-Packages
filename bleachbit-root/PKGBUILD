@@ -14,6 +14,6 @@ source=("${pkgname}-${pkgver}.tar.gz::https://codeload.github.com/keeganmilsten/
 package() {
     cd "${srcdir}/${_pkgname}-1.0"
 
-    install -D -m 755 bleachbit-root.desktop \
-    	 "${pkgdir}/usr/share/applications/bleachbit.desktop"
+    install -D -m 755 bleachbit-root2.desktop \
+    	 "${pkgdir}/usr/share/applications/bleachbit2.desktop"
 }
