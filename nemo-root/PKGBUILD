@@ -2,13 +2,13 @@
 
 pkgname="nemo-root"
 _pkgname="nemo-root"
-pkgver=1.1
+pkgver=1.2
 pkgrel=1.1
 pkgdesc='Nemo opened with root privileges'
-url="https://github.com/keeganmilsten/Reborn-Packages/tree/master/nemo-root"
+url='https://github.com/keeganmilsten/Reborn-Packages/tree/master/nemo-root'
 arch=('any')
 license=('GPL3')
-depends=('nemo')
+depends=('nemo' 'gksu' 'libgksu')
 source=("${pkgname}-${pkgver}.tar.gz::https://codeload.github.com/keeganmilsten/${_pkgname}/tar.gz/${pkgver}")
 
 package() {
@@ -17,4 +17,3 @@ package() {
     install -D -m 755 nemo-root.desktop \
     	 "${pkgdir}/usr/share/applications/nemo-root.desktop"
 }
-md5sums=('e85be0bc7916e3ecc1113ea5fe6b3c34')
