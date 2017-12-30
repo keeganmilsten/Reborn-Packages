@@ -1,0 +1,12 @@
+pkgbase = sddm-theme-gracilis-git
+	pkgdesc = Gracilis Theme for SDDM for Reborn OS
+	pkgver = latest
+	pkgrel = 2
+	url = https://github.com/keeganmilsten/sddm-gracilis-theme
+	arch = any
+	license = CCPL:cc-by-sa
+	depends = sddm
+	source = git+https://github.com/keeganmilsten/sddm-gracilis-theme.git
+	md5sums = SKIP
+
+pkgname = sddm-theme-gracilis-git
