@@ -26,6 +26,7 @@ sudo nano /etc/pacman.conf
 [Reborn-OS]
 SigLevel = Never
 Server = https://sourceforge.net/projects/antergos-deepin/files/
+Server = https://github.com/keeganmilsten/Reborn-Packages/releases/download/1.0/
 ```
 
 3. Press `CTRL X`, then `y`, and lastly `ENTER` to save the file.
