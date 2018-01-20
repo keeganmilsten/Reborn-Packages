@@ -1,7 +1,7 @@
 # Maintainer: Keegan Milsten <keeganmilsten@gmail.com>
 
 pkgname=i3-cosmic-reborn
-pkgver=1.0
+pkgver=1.1
 pkgrel=1.1
 pkgdesc='Cosmic package for i3 Reborn'
 url='https://github.com/keeganmilsten/Reborn-Packages/tree/master/cosmic/i3'
@@ -12,5 +12,5 @@ depends=('arandr' 'awesome-terminal-fonts' 'dmenu' 'file-roller' 'galculator' 'g
     'lxinput-gtk3' 'moc' 'mpv' 'network-manager-applet' 'networkmanager-openvpn'
     'networkmanager-pptp' 'nitrogen' 'notify-osd' 'pcmanfm' 'polkit-gnome'
     'python-pysmbc' 'scrot' 'termite' 'udiskie' 'volumeicon' 'xdg-user-dirs-gtk'
-    'xfburn' 'light-locker-settings' 'lightdm-webkit-theme-aether')
+    'xfburn')
 groups=('i3')
