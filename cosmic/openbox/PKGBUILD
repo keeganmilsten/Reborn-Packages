@@ -1,10 +1,10 @@
 # Maintainer: Keegan Milsten <keeganmilsten@gmail.com>
 
 pkgname=openbox-cosmic-reborn
-pkgver=1.1
+pkgver=1.2
 pkgrel=1.1
 pkgdesc='Cosmic package for Openbox Reborn'
 url='https://github.com/keeganmilsten/Reborn-Packages/tree/master/cosmic/openbox'
 arch=('any')
 license=('GPL3')
-depends=('file-roller' 'arandr' 'openbox-menu' 'compton' 'lxmenu-data' 'obkey' 'oblogout' 'conky' 'conky-manager' 'galculator' 'gmrun' 'gnome-disk-utility' 'gpicview-gtk3' 'gsimplecal' 'kalu' 'networkmanager-openvpn' 'networkmanager-pptp' 'notify-osd' 'nitrogen' 'mousepad' 'obconf' 'obmenu' 'lxmenu-data' 'openbox-menu' 'parcellite' 'pcmanfm-gtk3' 'plank' 'polkit-gnome' 'light-locker-settings' 'gnome-software' 'reborn-xfce-schemas' 'pamac' 'pragha' 'python-pysmbc' 'python2-xdg' 'qt5ct' 'scrot' 'tint2' 'udiskie' 'volumeicon' 'waldorf-ui-theme' 'xdg-user-dirs-gtk' 'xfburn' 'lightdm-webkit-theme-aether')
+depends=('file-roller' 'arandr' 'openbox-menu' 'compton' 'lxmenu-data' 'obkey' 'oblogout' 'conky' 'conky-manager' 'galculator' 'gmrun' 'gnome-disk-utility' 'gpicview-gtk3' 'gsimplecal' 'kalu' 'networkmanager-openvpn' 'networkmanager-pptp' 'notify-osd' 'nitrogen' 'mousepad' 'obconf' 'obmenu' 'lxmenu-data' 'openbox-menu' 'parcellite' 'pcmanfm-gtk3' 'plank' 'polkit-gnome' 'gnome-software' 'reborn-xfce-schemas' 'pamac' 'pragha' 'python-pysmbc' 'python2-xdg' 'qt5ct' 'scrot' 'tint2' 'udiskie' 'volumeicon' 'waldorf-ui-theme' 'xdg-user-dirs-gtk' 'xfburn')
