@@ -1,11 +1,11 @@
 # Maintainer: Keegan Milsten <keeganmilsten@gmail.com>
 
 pkgname=mate-cosmic-reborn
-pkgver=1.2
+pkgver=1.3
 pkgrel=1.1
 pkgdesc='Cosmic package for Mate Reborn'
 url='https://github.com/keeganmilsten/Reborn-Packages/tree/master/cosmic/mate'
 arch=('any')
 license=('GPL3')
-depends=('gksu' 'gnome-keyring' 'gnome-software' 'libmatekbd' 'libmatemixer' 'libmateweather' 'mate-mint-menu' 'network-manager-applet' 'networkmanager-openvpn' 'networkmanager-pptp' 'pamac' 'pragha' 'python-pysmbc' 'totem' 'transmission-gtk' 'xdg-user-dirs-gtk' 'xfburn' 'reborn-mate-schemas' 'flatplat-blue-theme' 'light-locker-settings' 'pamac' 'lightdm-webkit-theme-aether')
+depends=('gksu' 'gnome-keyring' 'gnome-software' 'libmatekbd' 'libmatemixer' 'libmateweather' 'mate-mint-menu' 'network-manager-applet' 'networkmanager-openvpn' 'networkmanager-pptp' 'pamac' 'pragha' 'python-pysmbc' 'totem' 'transmission-gtk' 'xdg-user-dirs-gtk' 'xfburn' 'reborn-mate-schemas' 'flatplat-blue-theme' 'pamac')
 groups=('mate' 'mate-extra')
