@@ -1,9 +1,9 @@
 pkgname=graphic-cosmic-reborn
-pkgver=1.9
+pkgver=1.12
 pkgrel=1.1
 pkgdesc='Cosmic package for graphic packages in Reborn OS'
 url='https://github.com/keeganmilsten/Reborn-Packages/tree/master/cosmic/graphic/'
 arch=('any')
 license=('GPL3')
-depends=('accountsservice' 'xdg-user-dirs' 'cdrtools' 'ffmpegthumbnailer' 'gst-libav' 'gst-plugins-bad' 'gst-plugins-base' 'gst-plugins-good' 'gst-plugins-ugly' 'gstreamer-vaapi' 'libdvdcss' 'mesa' 'mesa-vdpau' 'flat-remix-git' 'evopop-gtk-theme' 'pavucontrol' 'pulseaudio' 'pulseaudio-alsa' 'ttf-bitstream-vera' 'ttf-dejavu' 'ttf-liberation' 'upower' 'xf86-input-synaptics' 'xf86-video-fbdev' 'xf86-video-vesa' 'xorg-server' 'xorg-xinit' 'pyakm' 'gvfs' 'gvfs-afc' 'gvfs-goa' 'gvfs-google' 'gvfs-gphoto2' 'gvfs-mtp' 'gvfs-nfs' 'gvfs-smb' 'reborn-updates')
+depends=('accountsservice' 'xdg-user-dirs' 'cdrtools' 'ffmpegthumbnailer' 'flatpak-builder' 'gst-libav' 'gst-plugins-bad' 'gst-plugins-base' 'gst-plugins-good' 'gst-plugins-ugly' 'gstreamer-vaapi' 'libdvdcss' 'mesa' 'mesa-vdpau' 'flat-remix-git' 'evopop-gtk-theme' 'pavucontrol' 'pulseaudio' 'pulseaudio-alsa' 'ttf-bitstream-vera' 'ttf-dejavu' 'ttf-liberation' 'upower' 'xf86-input-synaptics' 'xf86-video-fbdev' 'xf86-video-vesa' 'xorg-server' 'xorg-xinit' 'pyakm' 'gvfs' 'gvfs-afc' 'gvfs-goa' 'gvfs-google' 'gvfs-gphoto2' 'gvfs-mtp' 'gvfs-nfs' 'gvfs-smb' 'reborn-updates')
 groups=('xorg-apps' 'xorg-fonts')
