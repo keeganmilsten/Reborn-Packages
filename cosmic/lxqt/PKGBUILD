@@ -1,11 +1,11 @@
 # Maintainer: Keegan Milsten <keeganmilsten@gmail.com>
 
 pkgname=lxqt-cosmic-reborn
-pkgver=1.1
+pkgver=1.3
 pkgrel=1.1
 pkgdesc='Cosmic package for LXQT Reborn'
 url='https://github.com/keeganmilsten/Reborn-Packages/tree/master/cosmic/lxqt'
 arch=('any')
 license=('GPL3')
-depends=('octopi' 'clementine' 'gwenview' 'numix-frost-themes' 'numix-icon-theme-circle' 'spectacle' 'transmission-qt' 'vlc' 'xdg-user-dirs' 'sddm')
+depends=('octopi' 'clementine' 'gwenview' 'numix-frost-themes' 'discover' 'packagekit-qt5 'spectacle' 'transmission-qt' 'vlc' 'xdg-user-dirs' 'sddm')
 groups=('lxqt')
