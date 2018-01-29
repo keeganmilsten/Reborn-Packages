@@ -7,5 +7,5 @@ pkgdesc='Cosmic package for LXQT Reborn'
 url='https://github.com/keeganmilsten/Reborn-Packages/tree/master/cosmic/lxqt'
 arch=('any')
 license=('GPL3')
-depends=('octopi' 'clementine' 'gwenview' 'numix-frost-themes' 'discover' 'packagekit-qt5 'spectacle' 'transmission-qt' 'vlc' 'xdg-user-dirs' 'sddm')
+depends=('octopi' 'clementine' 'gwenview' 'numix-frost-themes' 'discover' 'packagekit-qt5' 'spectacle' 'transmission-qt' 'vlc' 'xdg-user-dirs' 'sddm')
 groups=('lxqt')
