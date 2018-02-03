@@ -18,7 +18,13 @@ package() {
     	 "${pkgdir}/usr/bin/reborn-updates"
          
     install -D -m 755 reborn-sddm.sh \
-    	 "${pkgdir}/usr/bin/reborn-sddm.sh"
+    	 "${pkgdir}/usr/bin/flatpak.sh"
+         
+    install -D -m 755 reborn-sddm.sh \
+    	 "${pkgdir}/usr/bin/pkcon.sh"
+         
+    install -D -m 755 reborn-sddm.sh \
+    	 "${pkgdir}/usr/bin/pkcon2.sh"
 
     install -D -m 755 reborn-updates.desktop \
     	 "${pkgdir}/usr/share/applications/reborn-updates.desktop"
