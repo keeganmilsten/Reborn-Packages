@@ -8,7 +8,7 @@ pkgdesc='Easily update Reborn OS to experience the improvements from more recent
 url='https://github.com/keeganmilsten/Reborn-Packages/reborn-updates'
 arch=('any')
 license=('GPL3')
-depends=('yad' 'xterm' 'sudo')
+depends=('yad' 'xterm' 'sudo' 'gksu')
 source=("${pkgname}-${pkgver}.tar.gz::https://codeload.github.com/keeganmilsten/${_pkgname}/tar.gz/1.5")
 
 package() {
