@@ -2,7 +2,7 @@
 
 pkgname="reborn-updates"
 _pkgname="reborn-updates"
-pkgver=1.5
+pkgver=1.7
 pkgrel=1
 pkgdesc='Easily update Reborn OS to experience the improvements from more recent installs'
 url='https://github.com/keeganmilsten/Reborn-Packages/reborn-updates'
