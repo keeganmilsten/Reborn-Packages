@@ -1,0 +1,26 @@
+# Maintainer: Keegan Milsten <keeganmilsten@protonmail.com>
+
+pkgname=reborn-community-wallpapers
+_pkgname=reborn-community-wallpapers
+pkgver=1.0
+pkgrel=1
+pkgdesc='Beautiful wallpapers by the Reborn community '
+arch=('any')
+url='https://github.com/keeganmilsten/reborn-community-wallpapers'
+source=("https://github.com/keeganmilsten/${_pkgname}/archive/${pkgver}.tar.gz")
+
+package() {
+	cd "${srcdir}/${_pkgname}-${pkgver}"
+	install -m644 *.jpg "${pkgdir}/usr/share/backgrounds/"
+	install -m644 *.png "${pkgdir}/usr/share/backgrounds/"
+
+	# GNOME
+	install -d "${pkgdir}/usr/share/gnome-background-properties"
+	install -m644 reborn-wallpapers-4-4.xml "${pkgdir}/usr/share/gnome-background-properties/"
+
+	# Cinnamon
+	_bg_path="${pkgdir}/usr/share/cinnamon-background-properties/reborn-extra.xml"
+	install -d "${pkgdir}/usr/share/cinnamon-background-properties"
+	cp --no-preserve=ownership reborn-wallpapers-4-4.xml "${_bg_path}"
+	sed -i 's|gnome-wp-list|cinnamon-wp-list|g' "${_bg_path}"
+}
