@@ -1,7 +1,7 @@
 # Maintainer: Keegan Milsten <willnhalt@gmail.com>
 
 pkgname="reborn-recovery"
-_pkgname="reborn-recovery"
+_pkgname="Reborn-Recovery"
 pkgver=1.0
 pkgrel=1
 pkgdesc='Simple Reborn utility to save a list of all your system packages, and then use it to reinstall them in the event of a system failure'
