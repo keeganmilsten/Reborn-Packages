@@ -1,5 +1,5 @@
 # Reborn Recovery
-![Reborn Updates](/reborn-updates/reborn-recovery.png)
+![Reborn Recovery](/reborn-recovery/reborn-recovery.png)
 
 To build, execute the following command:
 ```
