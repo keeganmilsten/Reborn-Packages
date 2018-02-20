@@ -12,6 +12,8 @@ git clone https://github.com/keeganmilsten/Reborn-Packages
 3.Once all of the packages have been built, run the following command to update the repository as a whole:
 ```
 sudo repo-add /home/$USER/Dropbox/Linux/RebornOS-Repo/Reborn-OS.db.tar.xz /home/$USER/Dropbox/Linux/RebornOS-Repo/*.pkg.tar.xz
+
+syncrepo.sh
 ```
 4. Done!
 
@@ -25,7 +27,7 @@ sudo nano /etc/pacman.conf
 ```
 [Reborn-OS]
 SigLevel = Never
-Server = https://sourceforge.net/projects/antergos-deepin/files/
+Server = https://repo.itmettke.de/Reborn-OS/
 Server = https://github.com/keeganmilsten/Reborn-Packages/releases/download/1.0/
 ```
 
