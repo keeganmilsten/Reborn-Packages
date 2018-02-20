@@ -1,1 +1,22 @@
-thttht
+# Maintainer: Keegan Milsten <willnhalt@gmail.com>
+
+pkgname="reborn-recovery"
+_pkgname="reborn-recovery"
+pkgver=1.0
+pkgrel=1
+pkgdesc='Simple Reborn utility to save a list of all your system packages, and then use it to reinstall them in the event of a system failure'
+url='https://github.com/keeganmilsten/Reborn-Packages/reborn-recovery'
+arch=('any')
+license=('GPL3')
+depends=('yad' 'xterm' 'sudo' 'gksu')
+source=("${pkgname}-${pkgver}.tar.gz::https://codeload.github.com/keeganmilsten/${_pkgname}/tar.gz/${pkgver}")
+
+package() {
+    cd "${srcdir}/${_pkgname}-${pkgver}"
+
+    install -D -m 755 backup.sh \
+    	 "${pkgdir}/usr/bin/backup.sh"
+         
+    install -D -m 755 backup.desktop \
+    	 "${pkgdir}/usr/share/applications/backup.desktop"
+}
