@@ -2,7 +2,7 @@
 
 pkgname=kde-cosmic-reborn
 pkgver=1.5
-pkgrel=1.1
+pkgrel=1.2
 pkgdesc='Cosmic package for KDE Reborn'
 url='https://github.com/keeganmilsten/Reborn-Packages/tree/master/cosmic/kde'
 arch=('any')
