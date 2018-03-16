@@ -13,7 +13,7 @@ git clone https://github.com/keeganmilsten/Reborn-Packages
 ```
 sudo repo-add /home/$USER/Dropbox/Linux/RebornOS-Repo/Reborn-OS.db.tar.xz /home/$USER/Dropbox/Linux/RebornOS-Repo/*.pkg.tar.xz
 
-syncrepo.sh
+check-repo.sh
 ```
 4. Done!
 
