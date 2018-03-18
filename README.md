@@ -17,6 +17,11 @@ check-repo.sh
 ```
 4. Done!
 
+5. Afterwards, to remove packages that you have deleted from the repo,simply use this command:
+```
+repo-remove /home/$USER/Dropbox/Linux/RebornOS-Repo/Reborn-OS.db.tar.xz {PACKAGE_NAME}
+```
+
 # Add The Repository to Your System (for users)
 1. Enter pacman.conf
 ```
