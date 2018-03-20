@@ -23,12 +23,22 @@ repo-remove /home/$USER/Dropbox/Linux/RebornOS-Repo/Reborn-OS.db.tar.xz {PACKAGE
 ```
 
 # Add The Repository to Your System (for users)
-1. Enter pacman.conf
+1. Download the keyring packages from the following links:
+ - https://repo.itmettke.de/Reborn-OS/rebornos-keyring-20180302-1-any.pkg.tar.xz
+ - https://repo.itmettke.de/Reborn-OS/rebornos-keyring-20180302-1-any.pkg.tar.xz.sig
+
+2. Install Pamac and then click on the packages you have downloaded from above to install them:
+```
+############################# INSTALL PAMAC #################################
+sudo yaourt -S pamac
+```
+
+2. Enter pacman.conf
 ```
 sudo nano /etc/pacman.conf
 ```
 
-2. Edit the file. At the very end of it, just add the following lines:
+3. Edit the file. At the very end of it, just add the following lines:
 ```
 [Reborn-OS]
 SigLevel = Optional Required
@@ -36,11 +46,11 @@ Server = https://repo.itmettke.de/Reborn-OS/
 Server = https://github.com/keeganmilsten/Reborn-Packages/releases/download/1.0/
 ```
 
-3. Press `CTRL X`, then `y`, and lastly `ENTER` to save the file.
+4. Press `CTRL X`, then `y`, and lastly `ENTER` to save the file.
 
-4. Refresh your databases
+5. Refresh your databases
 ```
 sudo pacman -Syy
 ```
 
-5. Done!
+6. Done!
