@@ -17,7 +17,7 @@ check-repo.sh
 ```
 4. Done!
 
-5. Afterwards, to remove packages that you have deleted from the repo,simply use this command:
+5. In the event you wish to remove a package from the repo, first remove it from the directory and then delete it from the repo entirely using this command:
 ```
 repo-remove /home/$USER/Dropbox/Linux/RebornOS-Repo/Reborn-OS.db.tar.xz {PACKAGE_NAME}
 ```
@@ -31,7 +31,7 @@ sudo nano /etc/pacman.conf
 2. Edit the file. At the very end of it, just add the following lines:
 ```
 [Reborn-OS]
-SigLevel = Never
+SigLevel = Optional Required
 Server = https://repo.itmettke.de/Reborn-OS/
 Server = https://github.com/keeganmilsten/Reborn-Packages/releases/download/1.0/
 ```
