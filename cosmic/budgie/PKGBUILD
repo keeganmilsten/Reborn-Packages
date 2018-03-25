@@ -1,5 +1,5 @@
 pkgname=budgie-cosmic-reborn
-pkgver=1.2
+pkgver=1.3
 pkgrel=1.1
 pkgdesc='Cosmic package for Budgie Reborn'
 url='https://github.com/keeganmilsten/Reborn-Packages/tree/master/cosmic/budgie'
@@ -16,5 +16,5 @@ depends=('antergos-gnome-defaults-list' 'baobab' 'brasero' 'budgie-desktop'
     'gnome-tweak-tool' 'gnome-weather' 'gvfs-google' 'gvfs-mtp' 'gvfs-smb'
     'hicolor-icon-theme' 'libgnome-keyring' 'nautilus' 'network-manager-applet'
     'networkmanager-openvpn' 'networkmanager-pptp' 'pamac' 'polari'
-    'python-pysmbc' 'qt5ct' 'seahorse' 'totem' 'transmission-gtk'
+    'python-pysmbc' 'qt5ct' 'seahorse' 'totem'
     'xdg-user-dirs-gtk' 'xscreensaver' 'gnome-software' 'reborn-budgie-schemas' 'flatplat-blue-theme' 'gdm')
