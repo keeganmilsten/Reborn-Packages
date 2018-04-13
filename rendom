@@ -1,0 +1,1 @@
+ pacman -Rdd $(pacman -Qq | grep -ve "$(pacman -Qqg base)" -ve "$(pacman -Qqg base-devel)" -ve "$(pacman -Slq Reborn-OS)")
